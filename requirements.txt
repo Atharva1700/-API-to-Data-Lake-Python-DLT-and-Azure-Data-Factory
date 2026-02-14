@@ -1,0 +1,33 @@
+# Core Dependencies
+requests==2.31.0          # For making API calls
+python-dotenv==1.0.0      # For managing environment variables
+pandas==2.1.3             # For data manipulation
+
+# DLT (Data Load Tool)
+dlt[bigquery]==0.4.2      # DLT with BigQuery support
+dlt[snowflake]==0.4.2     # DLT with Snowflake support
+dlt[deltalake]==0.4.2     # DLT with Delta Lake support
+
+# Cloud SDKs
+google-cloud-bigquery==3.14.0     # Google BigQuery
+snowflake-connector-python==3.6.0  # Snowflake
+deltalake==0.14.0                  # Delta Lake
+
+# Azure
+azure-identity==1.15.0             # Azure authentication
+azure-mgmt-datafactory==6.0.0      # Azure Data Factory SDK
+
+# Utilities
+pyyaml==6.0.1             # For configuration files
+jsonschema==4.20.0        # For JSON validation
+pyarrow==14.0.1           # For efficient data handling
+
+# Development Tools
+pytest==7.4.3             # For testing
+black==23.12.1            # For code formatting
+flake8==7.0.0             # For code linting
+ipython==8.19.0           # For interactive Python
+jupyter==1.0.0            # For notebooks (optional)
+
+# Logging and Monitoring
+loguru==0.7.2             # Better logging
